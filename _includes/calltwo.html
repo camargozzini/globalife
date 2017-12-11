@@ -1,0 +1,14 @@
+<!-- Call Action Section -->
+<section class="small-section bg-dark">
+    <div class="container relative">
+
+        <div class="align-center">
+            <h3 class="banner-heading font-alt">Like Our Creative Works?</h3>
+            <div class="local-scroll">
+                <a href="#contact" class="btn btn-mod btn-w btn-medium btn-round">Start Project</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- End Call Action Section -->
