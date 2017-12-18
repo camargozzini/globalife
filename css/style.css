@@ -2532,7 +2532,7 @@ a.logo:hover{
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(17,17,17, .7);
+    background: #FFE91C;
 }
 .bg-dark-alfa-90:before,
 .bg-dark-alfa-90 .YTPOverlay:before{
