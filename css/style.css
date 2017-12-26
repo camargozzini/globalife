@@ -3064,13 +3064,11 @@ a.logo:hover{
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-    color: rgba(255,255,255, .9);
 }
 
 .features-descr{
     font-size: 15px;
     font-weight: 300;
-    color: rgba(255,255,255, .75);
 }
 
 .features-icon.black{
