@@ -6424,3 +6424,10 @@ section:hover .small-item-carousel .owl-next{
     .multi-columns-row .col-lg-2:nth-child(6n + 7) { clear: left; }
     .multi-columns-row .col-lg-1:nth-child(12n + 13) { clear: left; }
 }
+
+
+/* Hero */
+
+.hero {
+  background: rgba(252,252,252, .7) url(../images/bg-hero.png) no-repeat center center;
+}
