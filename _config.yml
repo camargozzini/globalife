@@ -32,3 +32,13 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+
+# Translations
+t:
+  en:
+    about: "About us"
+    contact:  "Contact"
+  es:
+    about: "Sobre nosotros"
+    contact:  "Contacto"
