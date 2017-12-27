@@ -3344,13 +3344,15 @@ a.logo:hover{
 .work-item a:hover{
     color: #111;
     border: none;
+    height: 200px;
 }
 .work-img{
     position: relative;
     overflow: hidden;
 }
 .work-img img{
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     display: block;
     overflow: hidden;
 }

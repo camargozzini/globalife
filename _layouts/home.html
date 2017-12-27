@@ -55,9 +55,6 @@ layout: default
                             <div class="features-icon">
                                 <img src="{{ site.baseurl }}images/portfolio/logo_foods_alive.png" alt="" />
                             </div>
-                            <div class="features-descr">
-                                Creators of real health food
-                            </div>
                         </div>
                         <!-- End Features Item -->
 
@@ -90,7 +87,14 @@ layout: default
 
             {% include portfolio.html %}
 
-            {% include contact.html %}
+
+            {% if page.lang=='en' %}
+              {% include contact.html %}
+            {% endif %}
+
+            {% if page.lang=='es' %}
+              {% include contacto.html %}
+            {% endif %}
 
             {% include footer.html %}
 

@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Foods Alive"
+title:  "Sustainable Indulgence"
 date:   2017-12-10 20:14:49 -0300
-ref: foodsalive
+ref: sustainableindulgence
 lang: es
-description: Creators of real health food
-img: logo_foods_alive.png
+description: Peace, Love and Handmade treats
+img: logo_sustainable_indulgence.png
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

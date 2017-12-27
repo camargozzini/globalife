@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Foods Alive"
+title:  "Vegan Robs"
 date:   2017-12-10 20:14:49 -0300
-ref: foodsalive
+ref: veganrobs
 lang: es
-description: Creators of real health food
-img: logo_foods_alive.png
+description: Go Vegan, even for a momento
+img: logo_vegan_robs.png
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
