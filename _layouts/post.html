@@ -2,25 +2,6 @@
 layout: default
 ---
 
-      <!-- Head Section -->
-      <section class="page-section bg-light-alfa-30 bg-{{ page.color }}">
-          <div class="relative container align-left">
-
-              <div class="row">
-
-                  <div class="col-md-8">
-                      <h1 class="hs-line-11 no-transp font-alt mb-20 mb-xs-0">{{ page.title }}</h1>
-                      <div class="hs-line-4 font-alt">
-                          {{ page.description }}
-                          <br>
-                          <a href="{{ page.link }}" target="_blank">Sitio web</a>
-                      </div>
-                  </div>
-              </div>
-
-          </div>
-      </section>
-      <!-- End Head Section -->
 
             <!-- Section -->
             <section class="page-section">
@@ -28,7 +9,40 @@ layout: default
                   <div class="brand-logo">
                     <img src="{{ site.baseurl }}/images/portfolio/{{ page.img }}" alt="">
                   </div>
+                  <div class="text-center slogan">
+                    <span class="font-alt slogan-{{ page.color }}">{{ page.slogan }}</span>
+                  </div>
+                  <!-- Intro Text -->
+                  <div class="row mb-70 mb-xs-30">
+                      <div class="col-md-8 col-md-offset-2">
+                          <div class="section-text align-center mb-70 mb-xs-40">
+                             {{ page.description }}
+                            <div class="">
+                              <a href="{{ page.link }}" class="text-center">{{ page.link}}</a>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- End Intro Text -->
                   {{ content}}
+
+                  <!-- Work Gallery -->
+                  <div class="work-full-media mb-80 mb-xs-40">
+
+                      <ul class="clearlist work-full-slider owl-carousel">
+                          <li>
+                              <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/01.jpg" alt="" />
+                          </li>
+                          <li>
+                              <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/02.jpg" alt="" />
+                          </li>
+                          <li>
+                              <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/03.jpg" alt="" />
+                          </li>
+                      </ul>
+
+                  </div>
+                  <!-- End Work Gallery -->
 
                 </div>
             </section>
@@ -43,7 +57,7 @@ layout: default
             <!-- Work Navigation -->
             <div class="work-navigation clearfix">
                 <a href="portfolio-single-1.html" class="work-prev"><span><i class="fa fa-chevron-left"></i>&nbsp;Previous</span></a>
-                <a href="#" class="work-all"><span><i class="fa fa-times"></i>&nbsp;All works</span></a>
+                <a href="{{ site.baseurl }}/#portfolio" class="work-all"><span><i class="fa fa-times"></i>&nbsp;All works</span></a>
                 <a href="portfolio-single-3.html" class="work-next"><span>Next&nbsp;<i class="fa fa-chevron-right"></i></span></a>
             </div>
             <!-- End Work Navigation -->

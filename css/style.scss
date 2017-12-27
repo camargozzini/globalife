@@ -1378,7 +1378,7 @@ a.btn-mod:focus{
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .nav-logo-wrap .logo img{
-    max-height: 100%;
+    max-height: 80%;
 }
 .nav-logo-wrap .logo:before,
 .nav-logo-wrap .logo:after{
@@ -4762,7 +4762,7 @@ table.shopping-cart-table tr td{
     top: 17px;
     left: 0;
 
-    background: #fff;
+    background: $yellow;
 
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -6360,20 +6360,50 @@ section:hover .small-item-carousel .owl-next{
   background-position-y: bottom;
 }
 
-// about
-
-#about {
-  background: $yellow;
-}
-
 // Portfolio
 
 .sello {
-  max-width: 200px;
+  width: 140px;
   margin: 0 auto;
 }
 
 .brand-logo {
   max-width: 200px;
   margin: 0 auto 3rem;
+}
+
+.slogan {
+  margin-bottom: 3rem;
+}
+
+.slogan-blue {
+    background: $blue;
+    color: white;
+    padding: 0.5rem 2rem;
+}
+
+.slogan-green {
+    background: $green;
+    color: white;
+}
+
+.slogan-orange {
+    background: $orange;
+    color: white;
+}
+
+.slogan-purple {
+    background: $purple;
+    color: white;
+}
+
+.slogan-yellow {
+    background: $yellow;
+    color: white;
+}
+
+// contacto
+
+#contact {
+    background: $yellow;
 }

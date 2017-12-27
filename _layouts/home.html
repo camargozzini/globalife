@@ -13,62 +13,19 @@ layout: default
             <!-- Section -->
             <section class="page-section bg-light-alfa-70 bg-scroll hero">
                 <div class="container relative">
+                  {% assign posts=site.posts | where:"lang", page.lang %}
 
                     <!-- Features Grid -->
                     <div class="item-carousel owl-carousel">
-
+                        {% for post in posts %}
                         <!-- Features Item -->
                         <div class="features-item">
                             <div class="features-icon">
-                                <img src="{{ site.baseurl }}images/portfolio/logo_sustainable_indulgence.png" alt="" />
-                            </div>
-                            <div class="features-descr">
-                                Peace, Love and Handmade treats
+                              <a href="{{ post.url }}"><img src="{{ site.baseurl }}images/portfolio/{{ post.img }}" alt="{{ post.title }}" /></a>
                             </div>
                         </div>
                         <!-- End Features Item -->
-
-                        <!-- Features Item -->
-                        <div class="features-item">
-                            <div class="features-icon">
-                                <img src="{{ site.baseurl }}images/portfolio/logo_emmys.png" alt="" />
-                            </div>
-                            <div class="features-descr">
-                              Clean food for a lively life
-                            </div>
-                        </div>
-                        <!-- End Features Item -->
-
-                        <!-- Features Item -->
-                        <div class="features-item">
-                            <div class="features-icon">
-                                <img src="{{ site.baseurl }}images/portfolio/logo_explore_cuisine.png" alt="" />
-                            </div>
-                            <div class="features-descr">
-                                Pasta re-invented! Simply healthier. Naturally delicious.
-                            </div>
-                        </div>
-                        <!-- End Features Item -->
-
-                        <!-- Features Item -->
-                        <div class="features-item">
-                            <div class="features-icon">
-                                <img src="{{ site.baseurl }}images/portfolio/logo_foods_alive.png" alt="" />
-                            </div>
-                        </div>
-                        <!-- End Features Item -->
-
-                        <!-- Features Item -->
-                        <div class="features-item">
-                            <div class="features-icon">
-                                <img src="{{ site.baseurl }}images/portfolio/logo_vegan_robs.png" alt="Vegan Rob's" />
-                            </div>
-                            <div class="features-descr">
-                                Go Vegan, even for a momento
-                            </div>
-                        </div>
-                        <!-- End Features Item -->
-
+                        {% endfor %}
                     </div>
                     <!-- Features Grid -->
 
