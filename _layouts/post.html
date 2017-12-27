@@ -4,24 +4,16 @@
     {% include header.html %}
     <body class="appear-animate">
       <!-- Head Section -->
-      <section class="page-section bg-dark-alfa-30" data-background="{{ site.baseurl}}images/full-width-images/section-bg-22.jpg">
+      <section class="page-section bg-light-alfa-30" data-background="{{ site.baseurl}}images/full-width-images/section-bg-22.jpg">
           <div class="relative container align-left">
 
               <div class="row">
 
                   <div class="col-md-8">
-                      <h1 class="hs-line-11 no-transp font-alt mb-20 mb-xs-0">Single Project</h1>
+                      <h1 class="hs-line-11 no-transp font-alt mb-20 mb-xs-0">{{ post.title }}</h1>
                       <div class="hs-line-4 font-alt">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                          {{ post.description }}
                       </div>
-                  </div>
-
-                  <div class="col-md-4 mt-30">
-
-                      <div class="mod-breadcrumbs font-alt align-right">
-                          <a href="#">Home</a>&nbsp;/&nbsp;<a href="#">Portfolio</a>&nbsp;/&nbsp;<span>Single</span>
-                      </div>
-
                   </div>
               </div>
 
@@ -43,52 +35,6 @@
                   </div>
                   <!-- End Intro Text -->
 
-                    <!-- Features Grid -->
-                    <div class="row multi-columns-row alt-features-grid mb-80 mb-xs-40">
-
-                        <!-- Features Item -->
-                        <div class="col-sm-6 col-md-4 col-lg-4">
-                            <div class="alt-features-item align-center">
-                                <h3 class="alt-features-title font-alt">1. Case study</h3>
-                                <div class="alt-features-descr align-left">
-                                    Lorem ipsum dolor sit amet, c-r adipiscing elit.
-                                    In maximus ligula semper metus pellentesque mattis.
-                                    Maecenas  volutpat, diam enim.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Features Item -->
-
-                        <!-- Features Item -->
-                        <div class="col-sm-6 col-md-4 col-lg-4">
-                            <div class="alt-features-item align-center">
-                                <h3 class="alt-features-title font-alt">2. Result</h3>
-                                <div class="alt-features-descr align-left">
-                                    Proin fringilla augue at maximus vestibulum.
-                                    Nam pulvinar vitae neque et porttitor. Praesent sed
-                                    nisi eleifend, lorem fermentum orci sit amet, iaculis libero.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Features Item -->
-
-                        <!-- Features Item -->
-                        <div class="col-sm-6 col-md-4 col-lg-4">
-                            <div class="alt-features-item align-center">
-                                <h3 class="alt-features-title font-alt">3. Experience</h3>
-                                <div class="alt-features-descr align-left">
-                                    Curabitur iaculis accumsan augue, nec finibus mauris pretium eu.
-                                    Duis placerat ex gravida nibh tristique porta. Nulla facilisi.
-                                    Suspendisse ultricies eros blandit.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Features Item -->
-
-                    </div>
-                    <!-- End Features Grid -->
-
-
                     <!-- Work Gallery -->
                     <div class="work-full-media mb-80 mb-xs-40">
 
@@ -104,16 +50,45 @@
                             </li>
                         </ul>
 
-                        <br/>
-
-                        <iframe src="http://player.vimeo.com/video/37066208?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-                        <br/>
-
-                        <img src="{{ site.baseurl }}images/portfolio/full-project-3.jpg" alt="" />
-
                     </div>
                     <!-- End Work Gallery -->
+
+                    <!-- Photo Grid -->
+                    <div class="row multi-columns-row mb-30 mb-xs-10">
+                      <h5 class="font-alt mt-0 mb-20">Sellos</h5>
+
+                        <!-- Photo Item -->
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
+
+                            <div class="post-prev-img">
+                                <a href="images/portfolio/full-project-2.jpg" class="lightbox-gallery-2 mfp-image"><img src="images/blog/post-prev-1.jpg" alt="" /></a>
+                            </div>
+
+                        </div>
+                        <!-- End Photo Item -->
+
+                        <!-- Photo Item -->
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
+
+                            <div class="post-prev-img">
+                                <a href="images/portfolio/full-project-3.jpg" class="lightbox-gallery-2 mfp-image"><img src="images/blog/post-prev-2.jpg" alt="" /></a>
+                            </div>
+
+                        </div>
+                        <!-- End Photo Item -->
+
+                        <!-- Photo Item -->
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
+
+                            <div class="post-prev-img">
+                                <a href="http://vimeo.com/50201327" class="lightbox-gallery-2 mfp-iframe"><img src="images/blog/post-prev-3.jpg" alt="" /></a>
+                            </div>
+
+                        </div>
+                        <!-- End Photo Item -->
+
+                    </div>
+                    <!-- End Photo Grid -->
 
 
                     <div class="section-text mb-60 mb-sm-40">
