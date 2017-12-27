@@ -7,22 +7,15 @@ lang: es
 description: Peace, Love and Handmade treats
 img: logo_sustainable_indulgence.png
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Foods Alive utiliza sólo ingredientes orgánicos, veganos, kosher y libres de gluten para crear comida saludable, a través de procesos de germinación, sin cocción,  para así potenciar y preservar todos los nutrientes. Ofrece galletas en distintas variedades de sabores, aliños y aceites a base de linaza, chia y hemp, además de una extensa línea de superfoods.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## Crackers and snackers
 
-Jekyll also offers powerful support for code snippets:
+Galletas a base de semillas germinadas,  ideales para untar con cualquier DIP o para esparcirlas como crutones en las ensaladas.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## Sellos
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+## Web
+
+www.foodsalive.com
