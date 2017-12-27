@@ -7,86 +7,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,400,700);
 
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. Common styles
-2. Page loader / .page-loader
-3. Typography
-4. Buttons
-5. Forms fields
-6. Home sections / .home-section
-    6.1. Home content
-    6.2. Scroll down icon
-    6.3. Headings styles
-7. Compact bar / .nav-bar-compact
-8. Classic menu bar / .main-nav
-9. Sections styles / .page-section, .small-section, .split-section
-10. Alternative services / .alt-service-grid
-11. Team / .team-grid
-12. Features
-13. Benefits (Process)
-14. Counters
-15. Portfolio / #portfolio
-    15.1. Works filter
-    15.2. Works grid
-    15.3. Works full view
-16. Banner section
-17. Testimonial
-    18.1. Logotypes
-18. Post previews (news section)
-19. Newsletter
-20. Contact section
-    20.1. Contact form
-21. Bottom menu / .bot-menu
-22. Google maps  /.google-map
-23. Footer / .footer
-24. Blog
-    24.1. Pagination
-    24.2. Comments
-    24.3. Sidebar
-25. Shop
-26. Pricing
-27. Shortcodes
-    27.1. Owl Carousel
-    27.2. Tabs
-    27.3. Tabs minimal
-    27.4. Alert messages
-    27.5. Accordion
-    27.6. Toggle
-    27.7. Progress bars
-    27.8. Font icons examples
-    27.9. Intro page
-28. Special demos
-29. Bootstrap multicolumn grid
-
-
-/*------------------------------------------------------------------
-# [Color codes]
-
-# Black (active elements, links, text) #111
-# Gray (text) #777
-# Dark #111
-# Dark Lighter #252525
-# Gray BG #f4f4f4
-# Gray BG Lighter #f8f8f8
-# Mid grey #5f5f5f
-# Borders #e9e9e9
-
-# */
-
-
-/*------------------------------------------------------------------
-[Typography]
-
-Body:               14px/1.6 "Open Sans", arial, sans-serif;
-Headers:            Dosis, arial, sans-serif;
-Serif:              "Times New Roman", Times, serif;
-Section Title:      35px/1.3 "Open Sans", arial, sans-serif;
-Section Heading:    24px/1.3 "Open Sans", arial, sans-serif;
-Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
-
--------------------------------------------------------------------*/
 
 
 /* ==============================
@@ -228,6 +148,17 @@ img:not([draggable]), embed, object, video{
     height: auto;
 }
 
+.font-alt {
+    font-family: Dosis, arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+// Backgrounds
+
+.bg-blue {
+  background: $blue;
+}
 
 
 /* ==============================
@@ -1204,7 +1135,6 @@ a.btn-mod:focus{
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: rgba(255,255,255, .85);
 }
 .hs-line-5{
     margin-top: 0;
@@ -6434,4 +6364,16 @@ section:hover .small-item-carousel .owl-next{
 
 #about {
   background: $yellow;
+}
+
+// Portfolio
+
+.sello {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.brand-logo {
+  max-width: 200px;
+  margin: 0 auto 3rem;
 }

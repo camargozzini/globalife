@@ -2,6 +2,7 @@
 layout: post
 title:  "Emmy's"
 date:   2017-12-10 20:14:49 -0300
+category: brands
 ref: emmys
 lang: es
 description: Clean food for a lively life

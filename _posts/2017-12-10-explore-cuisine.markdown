@@ -2,6 +2,7 @@
 layout: post
 title:  "Explore Cuisine"
 date:   2017-12-10 20:14:49 -0300
+category: brands
 ref: explorecuisine
 lang: es
 description: Pasta re-invented! Simply healthier. Naturally delicious.

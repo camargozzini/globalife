@@ -1,18 +1,19 @@
-<!DOCTYPE html>
-<html>
-    {% include head.html %}
-    {% include header.html %}
-    <body class="appear-animate">
+---
+layout: default
+---
+
       <!-- Head Section -->
-      <section class="page-section bg-light-alfa-30" data-background="{{ site.baseurl}}images/full-width-images/section-bg-22.jpg">
+      <section class="page-section bg-light-alfa-30 bg-{{ page.color }}">
           <div class="relative container align-left">
 
               <div class="row">
 
                   <div class="col-md-8">
-                      <h1 class="hs-line-11 no-transp font-alt mb-20 mb-xs-0">{{ post.title }}</h1>
+                      <h1 class="hs-line-11 no-transp font-alt mb-20 mb-xs-0">{{ page.title }}</h1>
                       <div class="hs-line-4 font-alt">
-                          {{ post.description }}
+                          {{ page.description }}
+                          <br>
+                          <a href="{{ page.link }}" target="_blank">Sitio web</a>
                       </div>
                   </div>
               </div>
@@ -24,167 +25,10 @@
             <!-- Section -->
             <section class="page-section">
                 <div class="container relative">
-
-                  <!-- Intro Text -->
-                  <div class="row mb-70 mb-xs-30">
-                      <div class="col-md-8 col-md-offset-2">
-                          <div class="section-text align-center mb-70 mb-xs-40">
-                               {{ content }}
-                          </div>
-                      </div>
+                  <div class="brand-logo">
+                    <img src="{{ site.baseurl }}/images/portfolio/{{ page.img }}" alt="">
                   </div>
-                  <!-- End Intro Text -->
-
-                    <!-- Work Gallery -->
-                    <div class="work-full-media mb-80 mb-xs-40">
-
-                        <ul class="clearlist work-full-slider owl-carousel">
-                            <li>
-                                <img src="{{ site.baseurl }}images/portfolio/full-project-1.jpg" alt="" />
-                            </li>
-                            <li>
-                                <img src="{{ site.baseurl }}images/portfolio/full-project-2.jpg" alt="" />
-                            </li>
-                            <li>
-                                <img src="{{ site.baseurl }}images/portfolio/full-project-3.jpg" alt="" />
-                            </li>
-                        </ul>
-
-                    </div>
-                    <!-- End Work Gallery -->
-
-                    <!-- Photo Grid -->
-                    <div class="row multi-columns-row mb-30 mb-xs-10">
-                      <h5 class="font-alt mt-0 mb-20">Sellos</h5>
-
-                        <!-- Photo Item -->
-                        <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
-
-                            <div class="post-prev-img">
-                                <a href="images/portfolio/full-project-2.jpg" class="lightbox-gallery-2 mfp-image"><img src="images/blog/post-prev-1.jpg" alt="" /></a>
-                            </div>
-
-                        </div>
-                        <!-- End Photo Item -->
-
-                        <!-- Photo Item -->
-                        <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
-
-                            <div class="post-prev-img">
-                                <a href="images/portfolio/full-project-3.jpg" class="lightbox-gallery-2 mfp-image"><img src="images/blog/post-prev-2.jpg" alt="" /></a>
-                            </div>
-
-                        </div>
-                        <!-- End Photo Item -->
-
-                        <!-- Photo Item -->
-                        <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
-
-                            <div class="post-prev-img">
-                                <a href="http://vimeo.com/50201327" class="lightbox-gallery-2 mfp-iframe"><img src="images/blog/post-prev-3.jpg" alt="" /></a>
-                            </div>
-
-                        </div>
-                        <!-- End Photo Item -->
-
-                    </div>
-                    <!-- End Photo Grid -->
-
-
-                    <div class="section-text mb-60 mb-sm-40">
-                        <div class="row">
-
-                            <div class="col-md-4 mb-sm-50 mb-xs-30">
-
-                                <!-- Project Detail -->
-                                <div class="work-detail">
-                                    <h5 class="font-alt mt-0 mb-20">Project Details</h5>
-                                    <div class="work-full-detail">
-                                        <p>
-                                            <strong>Client:</strong>
-                                            Envato Users
-                                        </p>
-                                        <p>
-                                            <strong>Date:</strong>
-                                            1th Februery, 2014
-                                        </p>
-                                        <p>
-                                            <strong>Online:</strong>
-                                            <a href="#" target="_blank">www.rhythm.bestlooker.pro</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- End Project Detail -->
-
-                            </div>
-
-                            <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.
-                            </div>
-
-                            <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30">
-                                Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam.
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                    <!-- Counters -->
-                    <div class="count-wrapper">
-                        <div class="row">
-
-                            <!-- Counter Item -->
-                            <div class="col-xs-6 col-sm-3">
-                                <div class="count-number">
-                                    320
-                                </div>
-                                <div class="count-descr font-alt">
-                                    <i class="fa fa-clock-o"></i>
-                                    <span class="count-title">Hours</span>
-                                </div>
-                            </div>
-                            <!-- End Counter Item -->
-
-                            <!-- Counter Item -->
-                            <div class="col-xs-6 col-sm-3">
-                                <div class="count-number">
-                                    150
-                                </div>
-                                <div class="count-descr font-alt">
-                                    <i class="fa fa-heart"></i>
-                                    <span class="count-title">Pixels used</span>
-                                </div>
-                            </div>
-                            <!-- End Counter Item -->
-
-                            <!-- Counter Item -->
-                            <div class="col-xs-6 col-sm-3">
-                                <div class="count-number">
-                                    533
-                                </div>
-                                <div class="count-descr font-alt">
-                                    <i class="fa fa-coffee"></i>
-                                    <span class="count-title">Coffee Cups</span>
-                                </div>
-                            </div>
-                            <!-- End Counter Item -->
-
-                            <!-- Counter Item -->
-                            <div class="col-xs-6 col-sm-3">
-                                <div class="count-number">
-                                    100
-                                </div>
-                                <div class="count-descr font-alt">
-                                    <i class="fa fa-lightbulb-o"></i>
-                                    <span class="count-title">Great Ideas</span>
-                                </div>
-                            </div>
-                            <!-- End Counter Item -->
-
-                        </div>
-                    </div>
-                    <!-- End Counters -->
+                  {{ content}}
 
                 </div>
             </section>
@@ -211,33 +55,3 @@
 
 
             {% include footer.html %}
-            <!-- JS -->
-            <script type="text/javascript" src="{{ site.baseurl }}js/jquery-1.11.2.min.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/jquery.easing.1.3.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/bootstrap.min.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/SmoothScroll.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/jquery.scrollTo.min.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/jquery.localScroll.min.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/jquery.viewport.mini.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/jquery.countTo.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/jquery.appear.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/jquery.sticky.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/jquery.parallax-1.1.3.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/jquery.fitvids.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/owl.carousel.min.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/isotope.pkgd.min.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/imagesloaded.pkgd.min.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/jquery.magnific-popup.min.js"></script>
-            <!-- Replace test API Key "AIzaSyAZsDkJFLS0b59q7cmW0EprwfcfUA8d9dg" with your own one below
-            **** You can get API Key here - https://developers.google.com/maps/documentation/javascript/get-api-key -->
-            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZsDkJFLS0b59q7cmW0EprwfcfUA8d9dg"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/gmap3.min.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/wow.min.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/masonry.pkgd.min.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/jquery.simple-text-rotator.min.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/all.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/contact-form.js"></script>
-            <script type="text/javascript" src="{{ site.baseurl }}js/jquery.ajaxchimp.min.js"></script>
-            <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
-  </body>
-</html>

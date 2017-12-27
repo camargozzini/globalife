@@ -2,6 +2,7 @@
 layout: post
 title:  "Vegan Robs"
 date:   2017-12-10 20:14:49 -0300
+category: brands
 ref: veganrobs
 lang: es
 description: Go Vegan, even for a momento
