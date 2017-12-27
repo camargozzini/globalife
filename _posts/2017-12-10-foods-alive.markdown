@@ -2,6 +2,7 @@
 layout: post
 title:  "Foods Alive"
 date:   2017-12-10 20:14:49 -0300
+categories: brands
 ref: foodsalive
 lang: es
 description: Creators of real health food
