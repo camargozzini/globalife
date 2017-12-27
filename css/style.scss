@@ -2475,7 +2475,7 @@ a.logo:hover{
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(252,252,252, .97);
+    background: rgba(252,252,252, .7);
 }
 .bg-light-alfa-30:before,
 .bg-light-alfa-30 .YTPOverlay:before{
@@ -3314,8 +3314,10 @@ a.logo:hover{
     font-size: 11px;
     text-align: center;
     text-transform: uppercase;
-    color: #aaa;
+    color: #fff;
     line-height: 1.2;
+    height: 50px;
+    padding: 6px 6px;
 }
 .works-grid.hide-titles .work-item > a{
     overflow: hidden;
@@ -6385,21 +6387,25 @@ section:hover .small-item-carousel .owl-next{
 .slogan-green {
     background: $green;
     color: white;
+    padding: 0.5rem 2rem;
 }
 
 .slogan-orange {
     background: $orange;
     color: white;
+    padding: 0.5rem 2rem;
 }
 
 .slogan-purple {
     background: $purple;
     color: white;
+    padding: 0.5rem 2rem;
 }
 
 .slogan-yellow {
     background: $yellow;
     color: white;
+    padding: 0.5rem 2rem;
 }
 
 // contacto

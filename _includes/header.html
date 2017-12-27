@@ -14,10 +14,8 @@
         <div class="inner-nav desktop-nav">
             <ul class="clearlist scroll-nav local-scroll">
                 <li><a href="{{ site.baseurl }}/#about">About</a></li>
-                <li><a href="{{ site.baseurl }}/#services">Services</a></li>
                 <li><a href="{{ site.baseurl }}/#portfolio">Portfolio</a></li>
-                <li><a href="{{ site.baseurl }}/#news">News</a></li>
-                <li><a href="{{ site.baseurl }}/#contact">Contacts</a></li>
+                <li><a href="{{ site.baseurl }}/#contact">Contacto</a></li>
                 {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                 {% for page in pages %}
                 <li>

@@ -8,8 +8,8 @@ lang: es
 slogan: Peace, Love and Handmade treats
 description: Galletas libres de gluten y veganas  a base de superalimentos. Snacks deliciosos y sanos que no comprometen la salud ni el medioambiente.
 img: logo_sustainable_indulgence.png
-color: blue
 link: https://sustainableindulgence.com/
+color: blue
 ---
 
 
