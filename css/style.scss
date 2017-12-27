@@ -1,13 +1,7 @@
-@charset "utf-8";
-/*------------------------------------------------------------------
-[Master Stylesheet]
+---
+---
 
-Project:    Rhythm
-Version:    2.9.7
-Last change:    22.11.2017
-Primary use:    MultiPurpose Template
--------------------------------------------------------------------*/
-
+@import "variables";
 @import "font-awesome.min.css";
 @import "et-line.css";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
@@ -360,7 +354,7 @@ img:not([draggable]), embed, object, video{
 body{
     color: #111;
     font-size: 14px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: $fira;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
 }
@@ -2581,7 +2575,7 @@ a.logo:hover{
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(252,252,252, .7);
+    background: rgba(252,252,252, .1);
 }
 .bg-light-alfa-90:before,
 .bg-light-alfa-90 .YTPOverlay:before{
@@ -3055,9 +3049,9 @@ a.logo:hover{
     background-size: cover;
 }
 .features-icon{
-    font-size: 48px;
-    line-height: 1.3;
-    color: rgba(255,255,255, .9);
+    height: 12rem;
+    max-width: 60%;
+    margin: 0 auto;
 }
 .features-title{
     margin-bottom: 3px;
@@ -6430,4 +6424,12 @@ section:hover .small-item-carousel .owl-next{
 
 .hero {
   background: rgba(252,252,252, .7) url(../images/bg-hero.png) no-repeat center center;
+  background-size: 100%;
+  background-position-y: bottom;
+}
+
+// about
+
+#about {
+  background: $yellow;
 }

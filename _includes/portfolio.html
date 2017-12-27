@@ -1,16 +1,20 @@
             <!-- Head Section -->
-            <section class="small-section bg-dark-alfa-30 parallax-2" data-background="images/full-width-images/section-bg-18.jpg">
+            <section class="small-section bg-dark-alfa-30 parallax-2" data-background="{{ site.baseurl }}images/full-width-images/section-bg-18.jpg">
                 <div class="relative container align-left">
 
                     <div class="row">
 
                         <div class="col-md-8">
                             <h1 class="hs-line-11 font-alt mb-20 mb-xs-0">Nuestras marcas</h1>
-                            <div class="hs-line-4 font-alt">
-                                An eye for detail makes our works excellent
-                            </div>
                         </div>
+
                     </div>
+link a post
+{% for post in posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+{% endfor %}
 
                 </div>
             </section>
