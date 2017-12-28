@@ -1,18 +1,22 @@
 ---
 layout: default
 ---
-        <!-- Page Loader -->
-        <div class="page-loader">
-            <div class="loader">Loading...</div>
-        </div>
-        <!-- End Page Loader -->
+<!-- Page Loader -->
+<div class="page-loader">
+    <div class="loader">Loading...</div>
+</div>
+<!-- End Page Loader -->
 
-        <!-- Page Wrap -->
-        <div class="page" id="top">
+<!-- Page Wrap -->
+<div class="page" id="top">
+
 
             <!-- Section -->
-            <section class="page-section bg-light-alfa-70 bg-scroll hero">
+            <section class="page-section bg-scroll hero">
                 <div class="container relative">
+                  <div class="align-center">
+                      <h2 class="hs-line-15 black font-alt">Somos una empresa que busca acercar la salud a todos los chilenos, representando y distribuyendo marcas de productos naturales, en donde cada uno de los ingredientes sean reconocibles, sanos y llenos de nutrientes.</h2>
+                  </div>
                   {% assign posts=site.posts | where:"lang", page.lang %}
 
                     <!-- Features Grid -->
@@ -32,15 +36,6 @@ layout: default
                 </div>
             </section>
             <!-- End Section -->
-
-
-
-            {% include about.html %}
-
-            <!-- Divider -->
-            <hr class="mt-0 mb-0 "/>
-            <!-- End Divider -->
-
 
             {% include portfolio.html %}
 

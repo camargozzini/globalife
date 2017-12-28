@@ -3280,6 +3280,8 @@ a.logo:hover{
     position: relative;
     overflow: hidden;
     height: 110px;
+    max-width: 190px;
+    margin: 0 auto;
 }
 .work-img img{
     width: 80%;
@@ -6362,6 +6364,11 @@ section:hover .small-item-carousel .owl-next{
   background-position-y: bottom;
 }
 
+.hero h2.hs-line-15 {
+    font-size: calc(1rem + 0.8vw);
+    line-height: calc(2rem + 1vw);
+}
+
 // Portfolio
 
 .sello {
@@ -6406,10 +6413,4 @@ section:hover .small-item-carousel .owl-next{
     background: $yellow;
     color: white;
     padding: 0.5rem 2rem;
-}
-
-// contacto
-
-#contact {
-    background: $yellow;
 }
