@@ -9,66 +9,64 @@ slogan: Pasta re-invented! Simply healthier. Naturally delicious.
 img: logo_explore_cuisine.png
 color: orange
 ---
-<!-- Sellos -->
-<h5 class="font-alt mt-0 mb-20">Sellos</h5>
-<div class="row multi-columns-row mb-30 mb-xs-10">
+<!-- Logotypes Section -->
+<section class="small-section bg-gray-lighter pt-20 pb-20">
+    <div class="container relative">
 
-    <!-- Photo Item -->
-    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
 
-        <div class="sello">
-            <img src="{{ site.baseurl }}/images/portfolio/sellos/glutenfree01.png" alt="" />
-        </div>
+                <div class="small-item-carousel black owl-carousel mb-0 animate-init" data-anim-type="fade-in-right-large" data-anim-delay="100">
 
-    </div>
-    <!-- End Photo Item -->
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <h5 class="font-alt mt-0 mb-20">Sellos</h5>
+                    </div>
+                    <!-- End Logo Item -->
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/glutenfree01.png" alt="" />
+                    </div>
+                    <!-- End Logo Item -->
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/nongmo03.png" alt="" />
+                    </div>
+                    <!-- End Logo Item -->
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/organic.png" alt="" />
+                    </div>
+                    <!-- End Logo Item -->
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/ouparve.png" alt="" />
+                    </div>
+                    <!-- End Logo Item -->
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/vegan02.png" alt="" />
+                    </div>
+                    <!-- End Logo Item -->
+                </div>
 
-    <!-- Photo Item -->
-    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
+             </div>
+         </div>
 
-        <div class="sello">
-            <img src="{{ site.baseurl }}/images/portfolio/sellos/kosher01.png" alt="" />
-        </div>
+     </div>
+</section>
+<!-- End Logotypes -->
 
-    </div>
-    <!-- End Photo Item -->
+<!-- Work Gallery -->
+<div class="work-full-media mb-80 mb-xs-40">
 
-    <!-- Photo Item -->
-    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
-
-        <div class="sello">
-            <img src="{{ site.baseurl }}/images/portfolio/sellos/nongmo01.png" alt="" />
-        </div>
-
-    </div>
-    <!-- End Photo Item -->
-    <!-- Photo Item -->
-    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
-
-        <div class="sello">
-            <img src="{{ site.baseurl }}/images/portfolio/sellos/organic.png" alt="" />
-        </div>
-
-    </div>
-    <!-- End Photo Item -->
-    <!-- Photo Item -->
-    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
-
-        <div class="sello">
-            <img src="{{ site.baseurl }}/images/portfolio/sellos/raw.png" alt="" />
-        </div>
-
-    </div>
-    <!-- End Photo Item -->
-    <!-- Photo Item -->
-    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
-
-        <div class="sello">
-            <img src="{{ site.baseurl }}/images/portfolio/sellos/vegan01.png" alt="" />
-        </div>
-
-    </div>
-    <!-- End Photo Item -->
-
+    <ul class="clearlist work-full-slider owl-carousel">
+        <li>
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/01.jpg" alt="" />
+        </li>
+        <li>
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/02.jpg" alt="" />
+        </li>
+    </ul>
 </div>
-<!-- End Sellos -->
+<!-- End Work Gallery -->
