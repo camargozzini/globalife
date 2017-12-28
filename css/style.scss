@@ -6365,8 +6365,10 @@ section:hover .small-item-carousel .owl-next{
 }
 
 .hero h2.hs-line-15 {
-    font-size: calc(1rem + 0.8vw);
-    line-height: calc(2rem + 1vw);
+  font-size: calc(1rem + 0.8vw);
+  line-height: calc(2rem + 1vw);
+  max-width: 800px;
+  margin: 0 auto 5rem;
 }
 
 // Portfolio
