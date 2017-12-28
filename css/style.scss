@@ -2980,7 +2980,7 @@ a.logo:hover{
 }
 .features-icon{
     height: 12rem;
-    max-width: 60%;
+    max-width: 130px;
     margin: 0 auto;
 }
 .features-title{
@@ -3279,6 +3279,7 @@ a.logo:hover{
 .work-img{
     position: relative;
     overflow: hidden;
+    height: 110px;
 }
 .work-img img{
     width: 80%;
@@ -3314,10 +3315,8 @@ a.logo:hover{
     font-size: 11px;
     text-align: center;
     text-transform: uppercase;
-    color: #fff;
     line-height: 1.2;
     height: 50px;
-    padding: 6px 6px;
 }
 .works-grid.hide-titles .work-item > a{
     overflow: hidden;
