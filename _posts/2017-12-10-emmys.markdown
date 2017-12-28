@@ -5,9 +5,11 @@ date:   2017-12-10 20:14:49 -0300
 category: brands
 ref: emmys
 lang: es
+description: Emmy´s Organics es una empresa familiar, creadora de unas galletas de coco orgánicas, libres de lácteos, de gluten, de soya y crudiveganas.  Orientados al snacking saludable y con un fuerte compromiso con el medioambiente, Emmy´s elabora todos sus productos en plantas que utilizan energía eólica y solar.
 slogan: Clean food for a lively life
 img: logo_emmys.png
 color: yellow
+link: https://emmysorganics.com/
 ---
 <!-- Logotypes Section -->
 <section class="small-section bg-gray-lighter pt-20 pb-20">
@@ -20,7 +22,32 @@ color: yellow
 
                     <!-- Logo Item -->
                     <div class="logo-item">
-                        <img src="{{ site.baseurl }}/images/portfolio/sellos/raw.png" alt="" />
+                        <h5 class="font-alt mt-0 mb-20">Sellos</h5>
+                    </div>
+                    <!-- End Logo Item -->
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/glutenfree01.png" alt="" />
+                    </div>
+                    <!-- End Logo Item -->
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/kosher01.png" alt="" />
+                    </div>
+                    <!-- End Logo Item -->
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/nongmo03.png" alt="" />
+                    </div>
+                    <!-- End Logo Item -->
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/organic.png" alt="" />
+                    </div>
+                    <!-- End Logo Item -->
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/vegan01.png" alt="" />
                     </div>
                     <!-- End Logo Item -->
 
