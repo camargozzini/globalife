@@ -9,66 +9,26 @@ slogan: Clean food for a lively life
 img: logo_emmys.png
 color: yellow
 ---
-<!-- Sellos -->
-<h5 class="font-alt mt-0 mb-20">Sellos</h5>
-<div class="row multi-columns-row mb-30 mb-xs-10">
+<!-- Logotypes Section -->
+<section class="small-section bg-gray-lighter pt-20 pb-20">
+    <div class="container relative">
 
-    <!-- Photo Item -->
-    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
 
-        <div class="sello">
-            <img src="{{ site.baseurl }}/images/portfolio/sellos/glutenfree01.png" alt="" />
-        </div>
+                <div class="small-item-carousel black owl-carousel mb-0 animate-init" data-anim-type="fade-in-right-large" data-anim-delay="100">
 
-    </div>
-    <!-- End Photo Item -->
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/raw.png" alt="" />
+                    </div>
+                    <!-- End Logo Item -->
 
-    <!-- Photo Item -->
-    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
+                </div>
 
-        <div class="sello">
-            <img src="{{ site.baseurl }}/images/portfolio/sellos/kosher01.png" alt="" />
-        </div>
+             </div>
+         </div>
 
-    </div>
-    <!-- End Photo Item -->
-
-    <!-- Photo Item -->
-    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
-
-        <div class="sello">
-            <img src="{{ site.baseurl }}/images/portfolio/sellos/nongmo01.png" alt="" />
-        </div>
-
-    </div>
-    <!-- End Photo Item -->
-    <!-- Photo Item -->
-    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
-
-        <div class="sello">
-            <img src="{{ site.baseurl }}/images/portfolio/sellos/organic.png" alt="" />
-        </div>
-
-    </div>
-    <!-- End Photo Item -->
-    <!-- Photo Item -->
-    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
-
-        <div class="sello">
-            <img src="{{ site.baseurl }}/images/portfolio/sellos/raw.png" alt="" />
-        </div>
-
-    </div>
-    <!-- End Photo Item -->
-    <!-- Photo Item -->
-    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
-
-        <div class="sello">
-            <img src="{{ site.baseurl }}/images/portfolio/sellos/vegan01.png" alt="" />
-        </div>
-
-    </div>
-    <!-- End Photo Item -->
-
-</div>
-<!-- End Sellos -->
+     </div>
+</section>
+<!-- End Logotypes -->

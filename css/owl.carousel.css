@@ -29,7 +29,6 @@
 	position: relative;
 	width: 100%;
   z-index: 5;
-  margin-bottom: 4rem;
 }
 .owl-carousel .owl-wrapper-outer.autoHeight{
 	-webkit-transition: height 500ms ease-in-out;
