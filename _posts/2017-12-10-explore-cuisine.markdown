@@ -9,22 +9,66 @@ slogan: Pasta re-invented! Simply healthier. Naturally delicious.
 img: logo_explore_cuisine.png
 color: orange
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<!-- Sellos -->
+<h5 class="font-alt mt-0 mb-20">Sellos</h5>
+<div class="row multi-columns-row mb-30 mb-xs-10">
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+    <!-- Photo Item -->
+    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
 
-Jekyll also offers powerful support for code snippets:
+        <div class="sello">
+            <img src="{{ site.baseurl }}/images/portfolio/sellos/glutenfree01.png" alt="" />
+        </div>
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+    </div>
+    <!-- End Photo Item -->
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+    <!-- Photo Item -->
+    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+        <div class="sello">
+            <img src="{{ site.baseurl }}/images/portfolio/sellos/kosher01.png" alt="" />
+        </div>
+
+    </div>
+    <!-- End Photo Item -->
+
+    <!-- Photo Item -->
+    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
+
+        <div class="sello">
+            <img src="{{ site.baseurl }}/images/portfolio/sellos/nongmo01.png" alt="" />
+        </div>
+
+    </div>
+    <!-- End Photo Item -->
+    <!-- Photo Item -->
+    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
+
+        <div class="sello">
+            <img src="{{ site.baseurl }}/images/portfolio/sellos/organic.png" alt="" />
+        </div>
+
+    </div>
+    <!-- End Photo Item -->
+    <!-- Photo Item -->
+    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
+
+        <div class="sello">
+            <img src="{{ site.baseurl }}/images/portfolio/sellos/raw.png" alt="" />
+        </div>
+
+    </div>
+    <!-- End Photo Item -->
+    <!-- Photo Item -->
+    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
+
+        <div class="sello">
+            <img src="{{ site.baseurl }}/images/portfolio/sellos/vegan01.png" alt="" />
+        </div>
+
+    </div>
+    <!-- End Photo Item -->
+
+</div>
+<!-- End Sellos -->
