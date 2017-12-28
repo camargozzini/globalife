@@ -11,41 +11,57 @@ img: logo_sustainable_indulgence.png
 link: https://sustainableindulgence.com/
 color: blue
 ---
+<!-- Logotypes Section -->
+<section class="small-section bg-gray-lighter pt-20 pb-20">
+    <div class="container relative">
 
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
 
-<!-- Sellos -->
-<h5 class="font-alt mt-0 mb-20">Sellos</h5>
-<div class="row multi-columns-row mb-30 mb-xs-10">
+                <div class="small-item-carousel black owl-carousel mb-0 animate-init" data-anim-type="fade-in-right-large" data-anim-delay="100">
 
-    <!-- Photo Item -->
-    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <h5 class="font-alt mt-0 mb-20">Sellos</h5>
+                    </div>
+                    <!-- End Logo Item -->
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/vegan01.png" alt="" />
+                    </div>
+                    <!-- End Logo Item -->
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/celiac.png" alt="" />
+                    </div>
+                    <!-- End Logo Item -->
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/kosher02.png" alt="" />
+                    </div>
+                    <!-- End Logo Item -->
+                </div>
 
-        <div class="sello">
-            <img src="{{ site.baseurl }}/images/portfolio/sellos/vegan01.png" alt="" />
-        </div>
+             </div>
+         </div>
 
-    </div>
-    <!-- End Photo Item -->
+     </div>
+</section>
+<!-- End Logotypes -->
 
-    <!-- Photo Item -->
-    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
+<!-- Work Gallery -->
+<div class="work-full-media mb-80 mb-xs-40">
 
-        <div class="sello">
-            <img src="{{ site.baseurl }}/images/portfolio/sellos/celiac.png" alt="" />
-        </div>
-
-    </div>
-    <!-- End Photo Item -->
-
-    <!-- Photo Item -->
-    <div class="col-sm-6 col-md-4 col-lg-4 mb-md-10">
-
-        <div class="sello">
-            <img src="{{ site.baseurl }}/images/portfolio/sellos/kosher02.png" alt="" />
-        </div>
-
-    </div>
-    <!-- End Photo Item -->
-
+    <ul class="clearlist work-full-slider owl-carousel">
+        <li>
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/01.jpg" alt="" />
+        </li>
+        <li>
+        <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/03.jpg" alt="" />
+        </li>
+        <li>
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/02.jpg" alt="" />
+        </li>
+    </ul>
 </div>
-<!-- End Sellos -->
+<!-- End Work Gallery -->
