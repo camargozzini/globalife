@@ -10,32 +10,7 @@ layout: default
 <!-- Page Wrap -->
 <div class="page" id="top">
 
-
-            <!-- Section -->
-            <section class="page-section bg-scroll hero">
-                <div class="container relative">
-                  <div class="align-center">
-                      <h2 class="hs-line-15 black font-alt">Somos una empresa que busca acercar la salud a todos los chilenos, representando y distribuyendo marcas de productos naturales, en donde cada uno de los ingredientes sean reconocibles, sanos y llenos de nutrientes.</h2>
-                  </div>
-                  {% assign posts=site.posts | where:"lang", page.lang %}
-
-                    <!-- Features Grid -->
-                    <div class="item-carousel owl-carousel">
-                        {% for post in posts %}
-                        <!-- Features Item -->
-                        <div class="features-item">
-                            <div class="features-icon">
-                              <a href="{{ site.baseurl}}{{ post.url }}"><img src="{{ site.baseurl }}images/portfolio/{{ post.img }}" alt="{{ post.title }}" /></a>
-                            </div>
-                        </div>
-                        <!-- End Features Item -->
-                        {% endfor %}
-                    </div>
-                    <!-- Features Grid -->
-
-                </div>
-            </section>
-            <!-- End Section -->
+  {% include hero.html %}
 
             {% include portfolio.html %}
 

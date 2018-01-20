@@ -5,9 +5,11 @@ date:   2017-12-10 20:14:49 -0300
 category: brands
 ref: explorecuisine
 lang: es
+description: Pastas libres de gluten hechas con legumbres 100% orgánicas. Alto en proteína vegetal y fibra
 slogan: Pasta re-invented! Simply healthier. Naturally delicious.
 img: logo_explore_cuisine.png
 color: orange
+link: http://www.explorecuisine.com/
 ---
 <!-- Logotypes Section -->
 <section class="small-section bg-gray-lighter pt-20 pb-20">
