@@ -4730,7 +4730,6 @@ table.shopping-cart-table tr td{
 }
 .owl-prev,
 .owl-next{
-    opacity: 0;
     display: block;
     position: absolute;
     top: 50%;
@@ -4768,9 +4767,9 @@ table.shopping-cart-table tr td{
 
     background: $yellow;
 
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
 
     -webkit-box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
     -moz-box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
