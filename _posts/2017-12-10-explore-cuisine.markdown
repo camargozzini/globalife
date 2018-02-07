@@ -69,6 +69,15 @@ link: http://www.explorecuisine.com/
         <li>
             <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/02.jpg" alt="" />
         </li>
+        <li>
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/03.jpg" alt="" />
+        </li>
+        <li>
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/04.jpg" alt="" />
+        </li>
+        <li>
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/05.jpg" alt="" />
+        </li>
     </ul>
 </div>
 <!-- End Work Gallery -->
