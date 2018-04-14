@@ -34,14 +34,12 @@ exclude:
 # Translations
 t:
   en:
-    index:
-      about: "About us"
-      contact:  "Contact"
-      brands: "Our Brands"
-      view-brand: "View brand"
+    about: "About us"
+    contact:  "Contact"
+    brands: "Our Brands"
+    view-brand: "View brand"
   es:
-    index:
-      about: "Sobre nosotros"
-      contact:  "Contacto"
-      brands: "Nuestras Marcas"
-      view-brand: "Ver marca"
+    about: "Sobre nosotros"
+    contact:  "Contacto"
+    brands: "Nuestras Marcas"
+    view-brand: "Ver marca"
