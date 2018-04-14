@@ -10,10 +10,21 @@ layout: default
 <!-- Page Wrap -->
 <div class="page" id="top">
 
-  {% include hero.html %}
+  {% if page.lang=='en' %}
+    {% include hero.html %}
+  {% endif %}
 
-  {% include portfolio.html %}
+  {% if page.lang=='es' %}
+    {% include inicio.html %}
+  {% endif %}
 
+  {% if page.lang=='en' %}
+    {% include portfolio.html %}
+  {% endif %}
+
+  {% if page.lang=='es' %}
+    {% include portafolio.html %}
+  {% endif %}
 
   {% if page.lang=='en' %}
     {% include contact.html %}
