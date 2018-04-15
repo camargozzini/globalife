@@ -10,6 +10,7 @@ slogan: Clean food for a lively life
 img: logo_emmys.png
 color: yellow
 link: https://emmysorganics.com/
+url: emmys.html
 ---
 <!-- Logotypes Section -->
 <section class="small-section bg-gray-lighter pt-20 pb-20">

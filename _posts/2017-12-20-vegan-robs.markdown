@@ -6,8 +6,7 @@ category: brands
 ref: veganrobs
 lang: en
 slogan: Go Vegan, even for a momento
-description: Vegan Robs is a company dedicated to the production of healthy snacks, specially
-chips, puffs and tortillas. They have more than 20 delicious flavors made only with natural ingredients like beetroot, cauliflower, spinach, among others.
+description: Vegan Robs is a company dedicated to the production of healthy snacks, specially chips, puffs and tortillas. They have more than 20 delicious flavors made only with natural ingredients like beetroot, cauliflower, spinach, among others.
 img: logo_vegan_robs.png
 color: purple
 link: https://veganrobs.com/

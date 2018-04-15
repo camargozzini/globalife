@@ -6,8 +6,7 @@ category: brands
 ref: sustainableindulgence
 lang: en
 slogan: Peace, Love and Handmade treats
-description: Gluten free and vegan cookies produced with superfoods. Delicious and healthy snacks that
-do not compromise heath or the environment.
+description: Gluten free and vegan cookies produced with superfoods. Delicious and healthy snacks that do not compromise heath or the environment.
 img: logo_sustainable_indulgence.png
 link: https://sustainableindulgence.com/
 color: blue
