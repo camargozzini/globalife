@@ -72,7 +72,7 @@ Galletas a base de semillas germinadas,  ideales para untar con cualquier DIP o 
 
     <ul class="clearlist work-full-slider owl-carousel">
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/01.jpg" alt="" />
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/02.png" alt="" />
         </li>
     </ul>
 </div>

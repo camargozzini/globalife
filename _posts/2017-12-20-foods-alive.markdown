@@ -72,7 +72,7 @@ Sprouted seed-based cookies ideal to eat with dips or to use as croutons on sala
 
     <ul class="clearlist work-full-slider owl-carousel">
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/01.jpg" alt="" />
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/02.png" alt="" />
         </li>
     </ul>
 </div>
