@@ -64,7 +64,7 @@ link: http://www.explorecuisine.com/
 
     <ul class="clearlist work-full-slider owl-carousel">
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/06.jpg" alt="" />
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/06.png" alt="" />
         </li>
         <li>
             <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/02.jpg" alt="" />
