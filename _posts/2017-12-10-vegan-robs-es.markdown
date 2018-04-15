@@ -1,16 +1,17 @@
 ---
 layout: post
-title:  "Explore Cuisine"
+title:  "Vegan Robs"
 date:   2017-12-10 20:14:49 -0300
 category: brands
-ref: explorecuisine
+ref: veganrobs
 lang: es
-description: Pastas libres de gluten hechas con legumbres 100% orgánicas. Alto en proteína vegetal y fibra
-slogan: Pasta re-invented! Simply healthier. Naturally delicious.
-img: logo_explore_cuisine.png
-color: orange
-link: http://www.explorecuisine.com/
+slogan: Go Vegan, even for a momento
+description: Vegan robs es una empresa dedicada a la creación de snacks saludables, particularmente en formato de chips, pufs y tortillas. Cuentan con más de 20 deliciosos sabores creados sólo a partir de ingredientes naturales, como por ejemplo betarraga, coliflor y espinaca, entre otros.
+img: logo_vegan_robs.png
+color: purple
+link: https://veganrobs.com/
 ---
+
 <!-- Logotypes Section -->
 <section class="small-section bg-gray-lighter pt-20 pb-20">
     <div class="container relative">
@@ -32,22 +33,22 @@ link: http://www.explorecuisine.com/
                     <!-- End Logo Item -->
                     <!-- Logo Item -->
                     <div class="logo-item">
-                        <img src="{{ site.baseurl }}/images/portfolio/sellos/nongmo03.png" alt="" />
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/kosher03.png" alt="" />
                     </div>
                     <!-- End Logo Item -->
                     <!-- Logo Item -->
                     <div class="logo-item">
-                        <img src="{{ site.baseurl }}/images/portfolio/sellos/organic.png" alt="" />
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/nongmo02.png" alt="" />
                     </div>
                     <!-- End Logo Item -->
                     <!-- Logo Item -->
                     <div class="logo-item">
-                        <img src="{{ site.baseurl }}/images/portfolio/sellos/ouparve.png" alt="" />
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/zerotransfat.png" alt="" />
                     </div>
                     <!-- End Logo Item -->
                     <!-- Logo Item -->
                     <div class="logo-item">
-                        <img src="{{ site.baseurl }}/images/portfolio/sellos/vegan02.png" alt="" />
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/vegan01.png" alt="" />
                     </div>
                     <!-- End Logo Item -->
                 </div>
@@ -64,19 +65,16 @@ link: http://www.explorecuisine.com/
 
     <ul class="clearlist work-full-slider owl-carousel">
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/01.jpg" alt="" />
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/05.png" alt="" />
         </li>
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/02.jpg" alt="" />
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/02.jpg" alt="" />
         </li>
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/03.jpg" alt="" />
+        <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/03.jpg" alt="" />
         </li>
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/04.jpg" alt="" />
-        </li>
-        <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/05.jpg" alt="" />
+        <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/04.jpg" alt="" />
         </li>
     </ul>
 </div>

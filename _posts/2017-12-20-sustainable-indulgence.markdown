@@ -54,13 +54,13 @@ color: blue
 
     <ul class="clearlist work-full-slider owl-carousel">
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ post.title | slugify }}/01.jpg" alt="" />
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/04.png" alt="" />
         </li>
         <li>
-        <img src="{{ site.baseurl }}/images/portfolio/{{ post.title | slugify }}/03.jpg" alt="" />
+        <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/03.jpg" alt="" />
         </li>
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ post.title | slugify }}/02.jpg" alt="" />
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/02.jpg" alt="" />
         </li>
     </ul>
 </div>

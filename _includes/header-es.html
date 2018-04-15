@@ -3,7 +3,7 @@
     <div class="full-wrapper relative clearfix">
         <!-- Logo ( * your text or image into link tag *) -->
         <div class="nav-logo-wrap local-scroll">
-            <a href="{{ site.baseurl }}/index-en" class="logo">
+            <a href="{{ site.baseurl }}/#top" class="logo">
                 <img src="{{ site.baseurl }}/images/logo-dark.png" alt="" />
             </a>
         </div>
@@ -13,8 +13,8 @@
         <!-- Main Menu -->
         <div class="inner-nav desktop-nav">
             <ul class="clearlist scroll-nav local-scroll">
-                <li><a href="{{ site.baseurl }}/#portfolio">Our brands</a></li>
-                <li><a href="{{ site.baseurl }}/#contact">Contact us</a></li>
+                <li><a href="{{ site.baseurl }}/#portfolio">Nuestras marcas</a></li>
+                <li><a href="{{ site.baseurl }}/#contact">Contacto</a></li>
                 {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                 {% for page in pages %}
                 <li>

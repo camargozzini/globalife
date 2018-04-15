@@ -64,19 +64,19 @@ link: http://www.explorecuisine.com/
 
     <ul class="clearlist work-full-slider owl-carousel">
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/01.jpg" alt="" />
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/06.jpg" alt="" />
         </li>
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/02.jpg" alt="" />
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/02.jpg" alt="" />
         </li>
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/03.jpg" alt="" />
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/03.jpg" alt="" />
         </li>
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/04.jpg" alt="" />
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/04.jpg" alt="" />
         </li>
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/05.jpg" alt="" />
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/05.jpg" alt="" />
         </li>
     </ul>
 </div>

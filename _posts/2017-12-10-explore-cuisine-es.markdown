@@ -1,16 +1,15 @@
 ---
 layout: post
-title:  "Emmy's"
+title:  "Explore Cuisine"
 date:   2017-12-10 20:14:49 -0300
 category: brands
-ref: emmys
+ref: explorecuisine
 lang: es
-description: Emmy´s Organics es una empresa familiar, creadora de unas galletas de coco orgánicas, libres de lácteos, de gluten, de soya y crudiveganas.  Orientados al snacking saludable y con un fuerte compromiso con el medioambiente, Emmy´s elabora todos sus productos en plantas que utilizan energía eólica y solar.
-slogan: Clean food for a lively life
-img: logo_emmys.png
-color: yellow
-link: https://emmysorganics.com/
-url: emmys.html
+description: Pastas libres de gluten hechas con legumbres 100% orgánicas. Alto en proteína vegetal y fibra
+slogan: Pasta re-invented! Simply healthier. Naturally delicious.
+img: logo_explore_cuisine.png
+color: orange
+link: http://www.explorecuisine.com/
 ---
 <!-- Logotypes Section -->
 <section class="small-section bg-gray-lighter pt-20 pb-20">
@@ -33,11 +32,6 @@ url: emmys.html
                     <!-- End Logo Item -->
                     <!-- Logo Item -->
                     <div class="logo-item">
-                        <img src="{{ site.baseurl }}/images/portfolio/sellos/kosher01.png" alt="" />
-                    </div>
-                    <!-- End Logo Item -->
-                    <!-- Logo Item -->
-                    <div class="logo-item">
                         <img src="{{ site.baseurl }}/images/portfolio/sellos/nongmo03.png" alt="" />
                     </div>
                     <!-- End Logo Item -->
@@ -48,10 +42,14 @@ url: emmys.html
                     <!-- End Logo Item -->
                     <!-- Logo Item -->
                     <div class="logo-item">
-                        <img src="{{ site.baseurl }}/images/portfolio/sellos/vegan01.png" alt="" />
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/ouparve.png" alt="" />
                     </div>
                     <!-- End Logo Item -->
-
+                    <!-- Logo Item -->
+                    <div class="logo-item">
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/vegan02.png" alt="" />
+                    </div>
+                    <!-- End Logo Item -->
                 </div>
 
              </div>
@@ -66,7 +64,19 @@ url: emmys.html
 
     <ul class="clearlist work-full-slider owl-carousel">
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/01.jpg" alt="" />
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/06.png" alt="" />
+        </li>
+        <li>
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/02.jpg" alt="" />
+        </li>
+        <li>
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/03.jpg" alt="" />
+        </li>
+        <li>
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/04.jpg" alt="" />
+        </li>
+        <li>
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/05.jpg" alt="" />
         </li>
     </ul>
 </div>

@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "Vegan Robs"
+title:  "Emmy's"
 date:   2017-12-10 20:14:49 -0300
 category: brands
-ref: veganrobs
+ref: emmys
 lang: es
-slogan: Go Vegan, even for a momento
-description: Vegan robs es una empresa dedicada a la creación de snacks saludables, particularmente en formato de chips, pufs y tortillas. Cuentan con más de 20 deliciosos sabores creados sólo a partir de ingredientes naturales, como por ejemplo betarraga, coliflor y espinaca, entre otros.
-img: logo_vegan_robs.png
-color: purple
-link: https://veganrobs.com/
+description: Emmy´s Organics es una empresa familiar, creadora de unas galletas de coco orgánicas, libres de lácteos, de gluten, de soya y crudiveganas.  Orientados al snacking saludable y con un fuerte compromiso con el medioambiente, Emmy´s elabora todos sus productos en plantas que utilizan energía eólica y solar.
+slogan: Clean food for a lively life
+img: logo_emmys.png
+color: yellow
+link: https://emmysorganics.com/
+url: emmys.html
 ---
-
 <!-- Logotypes Section -->
 <section class="small-section bg-gray-lighter pt-20 pb-20">
     <div class="container relative">
@@ -33,17 +33,17 @@ link: https://veganrobs.com/
                     <!-- End Logo Item -->
                     <!-- Logo Item -->
                     <div class="logo-item">
-                        <img src="{{ site.baseurl }}/images/portfolio/sellos/kosher03.png" alt="" />
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/kosher01.png" alt="" />
                     </div>
                     <!-- End Logo Item -->
                     <!-- Logo Item -->
                     <div class="logo-item">
-                        <img src="{{ site.baseurl }}/images/portfolio/sellos/nongmo02.png" alt="" />
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/nongmo03.png" alt="" />
                     </div>
                     <!-- End Logo Item -->
                     <!-- Logo Item -->
                     <div class="logo-item">
-                        <img src="{{ site.baseurl }}/images/portfolio/sellos/zerotransfat.png" alt="" />
+                        <img src="{{ site.baseurl }}/images/portfolio/sellos/organic.png" alt="" />
                     </div>
                     <!-- End Logo Item -->
                     <!-- Logo Item -->
@@ -51,6 +51,7 @@ link: https://veganrobs.com/
                         <img src="{{ site.baseurl }}/images/portfolio/sellos/vegan01.png" alt="" />
                     </div>
                     <!-- End Logo Item -->
+
                 </div>
 
              </div>
@@ -65,16 +66,7 @@ link: https://veganrobs.com/
 
     <ul class="clearlist work-full-slider owl-carousel">
         <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/01.jpg" alt="" />
-        </li>
-        <li>
-            <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/02.jpg" alt="" />
-        </li>
-        <li>
-        <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/03.jpg" alt="" />
-        </li>
-        <li>
-        <img src="{{ site.baseurl }}/images/portfolio/{{ page.ref }}/04.jpg" alt="" />
+            <img src="{{ site.baseurl }}/images/portfolio/{{ page.title | slugify }}/02.jpg" alt="" />
         </li>
     </ul>
 </div>

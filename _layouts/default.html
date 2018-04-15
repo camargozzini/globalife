@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
-    {% include header.html %}
+    {% if page.lang=='en' %}
+      {% include header.html %}
+    {% endif %}
+
+    {% if page.lang=='es' %}
+      {% include header-es.html %}
+    {% endif %}
     <body class="appear-animate">
 
       {{ content }}
