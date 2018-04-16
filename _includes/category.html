@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div style="background-image: url(&quot;img/hero02.png&quot;); background-position: 50% 0px;background-size: contain;background-repeat: no-repeat;">
+  <div class="container">
+    <div class="page-section mt-74">
+      <div class="clearfix mb-30">
+        <h1><span class="span-white">{{ page.title }}</span></h1>
+        <h4><span class="span-white">{{ page.description }}</span></h4>
+      </div>
+      {% assign counter = 1 %}
+      <div class="row">
+        {% for post in site.categories[page.tag] %}
+        {% include post_preview.html %}
+        {% assign cnt = counter|modulo:3 %}
+        {% assign counter = counter | plus:1 %}
+        {% endfor %}</div>
+      </div>
+  </div>
+</div>
