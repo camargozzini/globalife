@@ -3940,6 +3940,19 @@ a.logo:hover{
   color: #fff;
   text-align: center;
 }
+
+.map-toggle span {
+    font-size: 15px;
+    text-transform: none;
+    letter-spacing: 0;
+    font-family: "Fira Sans", sans-serif;
+}
+
+#map .mapboxgl-popup-content {
+    max-width: 230px;
+    text-align: center;
+}
+
 .mt-icon{
     width: 27px;
     height: 27px;
