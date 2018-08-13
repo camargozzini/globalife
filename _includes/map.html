@@ -15,6 +15,15 @@
             </div>
         </div>
 
+
+
+    </div>
+
+    <div class='sidebar listings-container'>
+        <div class='heading'>
+            <h3 class="font-alt white">Puntos de Venta</h3>
+        </div>
+        <div id='listings' class='listings'></div>
     </div>
 
 </div>
@@ -29,52 +38,105 @@
 </style>
 
 <script>
-mapboxgl.accessToken = 'pk.eyJ1IjoiY2FtYXJnb3p6aW5pIiwiYSI6InhXRjdLamcifQ.Gdafit2TZ0SSH_LS0dt2qg';
+    var stores;
+    mapboxgl.accessToken = 'pk.eyJ1IjoiY2FtYXJnb3p6aW5pIiwiYSI6InhXRjdLamcifQ.Gdafit2TZ0SSH_LS0dt2qg';
 
-var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/camargozzini/cjhc3gaq50iyb2rqllhvhekmv',
-    // center: [-77.04, 38.907],
-    // zoom: 11.15
-});
-
-map.on('load', function() {
-
-    // Create a popup, but don't add it to the map yet.
-    var popup = new mapboxgl.Popup({
-        closeButton: false,
-        closeOnClick: false,
-        scrollZoom: false
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/camargozzini/cjhc3gaq50iyb2rqllhvhekmv',
     });
 
+    map.addControl(new mapboxgl.NavigationControl());
 
+    function locationList(data) {
+        stores = {};
+        var listings = document.getElementById('listings');
+        for (i = 0; i < data.length; i++) {
+            var currentFeature = data[i];
+            var prop = currentFeature.properties;
 
+            name = '';
+            if( typeof prop.store != 'undefined' )
+                name = prop.store;
+            else if( typeof prop.place_name != 'undefined' )
+                name = prop.place_name;
 
-    map.on('mouseenter', 'global-life-stores', function(e) {
-        // Change the cursor style as a UI indicator.
-        map.getCanvas().style.cursor = 'pointer';
-
-        var coordinates = e.features[0].geometry.coordinates.slice();
-        var description = e.features[0].properties.description;
-        var store = e.features[0].properties.store;
-
-        // Ensure that if the map is zoomed out such that multiple
-        // copies of the feature are visible, the popup appears
-        // over the copy being pointed to.
-        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            if( name != '' && typeof stores[name] == 'undefined' ){
+                stores[name] = name;    
+                var listing = listings.appendChild(document.createElement('div'));
+                listing.className = 'item';
+                listing.id = 'listing-' + i;
+                var link = listing.appendChild(document.createElement('a'));
+                link.href = '#';
+                link.className = 'title';
+                link.dataPosition = i;
+                name = name.replace('.', '.<br><span>');
+                link.innerHTML = name+'</span>';
+            }
         }
+    }
 
-        // Populate the popup and set its coordinates
-        // based on the feature found.
-        popup.setLngLat(coordinates)
-            .setHTML(store)
-            .addTo(map);
-    });
+    function toStore(currentFeature) {
+        console.log(currentFeature.geometry.coordinates);
 
-    map.on('mouseleave', 'places', function() {
-        map.getCanvas().style.cursor = '';
-        popup.remove();
+        map.flyTo({
+            center: currentFeature.geometry.coordinates,
+            zoom: 15
+        });
+    }
+
+    
+
+    map.on('load', function() {
+
+        var stores; 
+
+        var popup = new mapboxgl.Popup({
+            closeButton: false,
+            closeOnClick: false,
+            scrollZoom: false
+        });
+
+        jQuery('body').on('click', '#listings a', function(){
+            var clickedListing = stores[this.dataPosition];
+            toStore(clickedListing);
+            return false;
+        });
+
+        map.on('mouseenter', 'global-life-stores', function(e) {
+
+            map.getCanvas().style.cursor = 'pointer';
+            var coordinates = e.features[0].geometry.coordinates.slice();
+            var description = e.features[0].properties.description;
+            var store = e.features[0].properties.store;
+
+            if( typeof store == 'undefined' )
+                var store = e.features[0].properties.place_name;
+
+            if( typeof store != 'undefined' )
+                store = store.replace('.', '.<br>');
+    
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
+
+            popup.setLngLat(coordinates)
+                .setHTML(store)
+                .addTo(map);
+        });
+
+        map.on('mouseleave', 'places', function() {
+            map.getCanvas().style.cursor = '';
+            popup.remove();
+        });
+
+        setTimeout(function(){
+            stores = map.querySourceFeatures('composite', {
+                'sourceLayer': 'Global_life_stores'
+            });
+            locationList(stores);    
+        }, 1000)
+
     });
-});
 </script>
+

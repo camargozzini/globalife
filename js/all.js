@@ -1037,6 +1037,7 @@ function init_map(){
             $(this).toggleClass("js-active");
             $(this).find(".mt-open").toggle();
             $(this).find(".mt-close").toggle();
+            $(".listings-container").toggleClass('active');
         });
 
 
