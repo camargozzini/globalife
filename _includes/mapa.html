@@ -42,6 +42,7 @@
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/camargozzini/cjhc3gaq50iyb2rqllhvhekmv',
+        zoom: 1,
     });
 
     map.addControl(new mapboxgl.NavigationControl());
@@ -72,14 +73,17 @@
                 link.innerHTML = name+'</span>';
             }
         }
+
+        map.flyTo({
+            center: [-70.6201171875, -33.43144133557529],
+            zoom: 11
+        });
     }
 
     function toStore(currentFeature) {
-        console.log(currentFeature.geometry.coordinates);
-
         map.flyTo({
             center: currentFeature.geometry.coordinates,
-            zoom: 15
+            zoom: 13
         });
     }
 
@@ -96,7 +100,6 @@
         });
 
         jQuery('body').on('click', '#listings a', function(){
-            console.log(this.dataPosition);
             var clickedListing = stores[this.dataPosition];
             toStore(clickedListing);
             return false;
@@ -133,6 +136,15 @@
             stores = map.querySourceFeatures('composite', {
                 'sourceLayer': 'Global_life_stores'
             });
+
+            for( x in stores){
+
+                prop = stores[x].properties;
+                if( typeof prop.store != 'undefined' )
+                    name = prop.store;
+                else if( typeof prop.place_name != 'undefined' )
+                    name = prop.place_name;
+            }
             locationList(stores);    
         }, 1000)
 
