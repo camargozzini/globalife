@@ -16,8 +16,8 @@
 title: Global Life
 email: contacto@global-life.cl
 description: Somos una empresa que busca acercar la salud a todos los chilenos, representando y distribuyendo marcas de productos naturales, en donde cada uno de los ingredientes sean reconocibles, sanos y llenos de nutrientes.
-baseurl: "http://global-life.cl" # the subpath of your site, e.g. /blog
-url: "http://global-life.cl/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "https://global-life.cl" # the subpath of your site, e.g. /blog
+url: "https://global-life.cl/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: camargozzini
 github_username:  camargozzini
 
